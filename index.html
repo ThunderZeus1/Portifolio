@@ -1,0 +1,664 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Anthony Venuk Jayawardena — Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Futuristic portfolio of Anthony Venuk Jayawardena — full-stack developer crafting immersive digital products.">
+    <meta name="author" content="Anthony Venuk Jayawardena">
+    <meta name="theme-color" content="#080c16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="noise-texture" aria-hidden="true"></div>
+    <div class="gradient-canvas" aria-hidden="true"></div>
+
+    <!-- Mobile Overlay -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+
+    <!-- Mobile Menu -->
+    <nav class="mobile-nav" id="mobileMenu">
+        <div class="mobile-nav__header">
+            <a href="#home-section" class="nav-logo">Venuk<span>_</span></a>
+            <button class="mobile-close" id="mobileClose" aria-label="Close navigation">&times;</button>
+        </div>
+        <div class="mobile-nav__inner">
+            <ul class="mobile-nav__links">
+                <li><a href="#home-section" class="mobile-nav-link">Home</a></li>
+                <li><a href="#portfolio-section" class="mobile-nav-link">Work</a></li>
+                <li><a href="#about-section" class="mobile-nav-link">About</a></li>
+                <li><a href="#services-section" class="mobile-nav-link">Services</a></li>
+                <li><a href="#experience-section" class="mobile-nav-link">Experience</a></li>
+                <li><a href="#skills-section" class="mobile-nav-link">Skills</a></li>
+                <li><a href="#contact-section" class="mobile-nav-link">Contact</a></li>
+            </ul>
+            <div class="mobile-nav__cta">
+                <a href="cv.pdf" class="btn btn--primary" download>Download CV</a>
+                <a href="#contact-section" class="btn btn--ghost">Start a Project</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Desktop Navigation -->
+    <header class="site-nav" id="navbar">
+        <div class="container nav__inner">
+            <a href="#home-section" class="nav-logo">Venuk<span>_</span></a>
+            <nav class="nav__links" aria-label="Primary">
+                <a href="#home-section" class="nav-link">Home</a>
+                <a href="#portfolio-section" class="nav-link">Work</a>
+                <a href="#about-section" class="nav-link">About</a>
+                <a href="#services-section" class="nav-link">Services</a>
+                <a href="#experience-section" class="nav-link">Experience</a>
+                <a href="#skills-section" class="nav-link">Skills</a>
+                <a href="#contact-section" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav__cta">
+                <a href="#contact-section" class="btn btn--ghost btn--small">Let’s Collaborate</a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section hero" id="home-section" data-section>
+            <div class="container hero__layout">
+                <div class="hero__content reveal-on-scroll">
+                    <span class="eyebrow">Futuristic Full-Stack Experiences</span>
+                    <h1 class="hero__title">I engineer reliable software that feels effortless to use.</h1>
+                    <p class="hero__lead">I’m Anthony Venuk Jayawardena, a Computer Science undergraduate now serving as a System Engineer and Project Manager at eLogic Lanka. I pair hands-on engineering with stakeholder leadership to ship user-first solutions—whether that’s orchestrating full-stack platforms, guiding Agile delivery, or rolling out a new web presence like Mocha Slices in Negombo.</p>
+                    <div class="hero__typed">
+                        <span class="typed-label">Currently crafting</span>
+                        <span class="typed-line">
+                            <span id="typedText"></span>
+                            <span class="typed-cursor" aria-hidden="true"></span>
+                        </span>
+                    </div>
+                    <div class="hero__cta">
+                        <a href="#portfolio-section" class="btn btn--primary">View Signature Work</a>
+                        <a href="#contact-section" class="btn btn--outline">Discuss Your Roadmap</a>
+                        <a href="cv.pdf" class="btn btn--ghost" download>Download CV</a>
+                    </div>
+                    <div class="hero__metrics">
+                        <div class="metric">
+                            <span class="metric__value" data-counter data-target="2">0</span>
+                            <span class="metric__label">Years professional<br>experience</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric__value" data-counter data-target="6">0</span>
+                            <span class="metric__label">Full-stack products<br>delivered</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric__value" data-counter data-target="4">0</span>
+                            <span class="metric__label">Major tech stacks<br>led end-to-end</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__visual reveal-on-scroll">
+                    <div class="hero__orb hero__orb--primary"></div>
+                    <div class="hero__orb hero__orb--secondary"></div>
+                    <figure class="hero__figure">
+                        <img src="images/about_me_pic2.jpg" alt="Anthony Venuk Jayawardena portrait">
+                    </figure>
+                    <ul class="hero__badges">
+                        <li>
+                            <span class="badge__title">Focus Areas</span>
+                            <span class="badge__meta">Agile full-stack delivery · API integration · Data-backed decisions</span>
+                        </li>
+                        <li>
+                            <span class="badge__title">Currently</span>
+                            <span class="badge__meta">BSc (Hons) Computer Science · Staffordshire University</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#portfolio-section" class="hero__scroll" aria-label="Scroll to work">
+                <span class="hero__scroll-icon"></span>
+                <span>Explore Work</span>
+            </a>
+        </section>
+
+        <section class="section section--alt" id="portfolio-section" data-section>
+            <div class="container">
+                <div class="section__heading reveal-on-scroll">
+                    <span class="section__eyebrow">Signature Work</span>
+                    <h2 class="section__title">Where vision meets engineered precision</h2>
+                    <p class="section__copy">Each build is a fusion of product thinking, robust architecture, and motion-rich UI. Here’s a snapshot of the systems and experiences I’ve delivered end-to-end.</p>
+                </div>
+                <div class="case-studies">
+                    <article class="case-card tilt reveal-on-scroll">
+                        <div class="case-card__header">
+                            <span class="case-card__tag">Hospitality Web</span>
+                            <span class="case-card__year">2024</span>
+                        </div>
+                        <h3 class="case-card__title">Mocha Slices — Digital flagship for a Negombo coffee brand</h3>
+                        <p class="case-card__summary">Led concept-through-launch for Mocha Slices’ responsive website, owning discovery, stakeholder alignment, and delivery. Crafted an inviting UI, integrated menu storytelling, and ensured the build was fast, accessible, and optimized for conversions.</p>
+                        <ul class="case-card__stack">
+                            <li>Project Management</li>
+                            <li>UI Engineering</li>
+                            <li>HTML/CSS/JS</li>
+                            <li>SEO Strategy</li>
+                        </ul>
+                        <div class="case-card__footer">
+                            <a href="#contact-section" class="btn btn--ghost btn--small">Explore case study</a>
+                            <span class="case-card__metric">Boosted local visibility</span>
+                        </div>
+                    </article>
+                    <article class="case-card tilt reveal-on-scroll">
+                        <div class="case-card__header">
+                            <span class="case-card__tag">Smart Mobility</span>
+                            <span class="case-card__year">2024</span>
+                        </div>
+                        <h3 class="case-card__title">Quick Park — Dynamic city-wide parking intelligence</h3>
+                        <p class="case-card__summary">Built a cross-platform parking slot reservation app with Flutter and Laravel, pairing real-time availability APIs with SQLite caching to streamline bookings and reduce on-site friction. Delivered accompanying PHP/JavaScript analytics to keep operators informed in real time.</p>
+                        <ul class="case-card__stack">
+                            <li>Flutter</li>
+                            <li>Laravel</li>
+                            <li>PostgreSQL</li>
+                            <li>Azure</li>
+                        </ul>
+                        <div class="case-card__footer">
+                            <span class="case-card__metric">Real-time slot visibility</span>
+                        </div>
+                    </article>
+
+                    <article class="case-card tilt reveal-on-scroll">
+                        <div class="case-card__header">
+                            <span class="case-card__tag">Eco Tourism</span>
+                            <span class="case-card__year">2023</span>
+                        </div>
+                        <h3 class="case-card__title">Eco Explore — Immersive guided journeys with AR layers</h3>
+                        <p class="case-card__summary">Designed an Android-first tourism booking companion in Android Studio and Laravel, focusing on reliable backend flows, itinerary management, and frictionless user journeys.</p>
+                        <ul class="case-card__stack">
+                            <li>Android</li>
+                            <li>Laravel</li>
+                            <li>Firebase</li>
+                            <li>Cloud Functions</li>
+                        </ul>
+                        <div class="case-card__footer">
+                            <span class="case-card__metric">Streamlined trip orchestration</span>
+                        </div>
+                    </article>
+
+                    <article class="case-card tilt reveal-on-scroll">
+                        <div class="case-card__header">
+                            <span class="case-card__tag">Enterprise Ops</span>
+                            <span class="case-card__year">2022</span>
+                        </div>
+                        <h3 class="case-card__title">StockSense — Inventory intelligence for growing retailers</h3>
+                        <p class="case-card__summary">Developed a C#/.NET inventory platform with SQL Server, delivering secure user authentication, live stock tracking, and automated reporting to keep teams aligned.</p>
+                        <ul class="case-card__stack">
+                            <li>.NET Framework</li>
+                            <li>C#</li>
+                            <li>SQL Server</li>
+                            <li>Power BI</li>
+                        </ul>
+                        <div class="case-card__footer">
+                            <span class="case-card__metric">Actionable stock reporting</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about-section" data-section>
+            <div class="container about">
+                <div class="about__visual reveal-on-scroll">
+                    <div class="about__frame">
+                        <img src="images/about_me_pic2.jpg" alt="Anthony Venuk Jayawardena smiling">
+                    </div>
+                    <div class="about__badge">
+                        <span>Staffordshire University</span>
+                        <span>BSc (Hons) Computer Science</span>
+                    </div>
+                </div>
+                <div class="about__content reveal-on-scroll">
+                    <span class="section__eyebrow">Precision meets momentum</span>
+                    <h2 class="section__title">Turning ambitious briefs into dependable software outcomes.</h2>
+                    <p class="section__copy">From dashboards and booking flows to inventory platforms, I build solutions that balance UX craft with engineering rigour. I thrive in Agile environments, collaborate closely with stakeholders, and back every release with measurable improvements in speed, usability, and insight.</p>
+                    <ul class="about__highlights">
+                        <li>
+                            <span class="about__highlight-title">Full-stack fluency</span>
+                            <span class="about__highlight-meta">Flutter, Laravel, .NET, and SQL combined to ship cohesive, scalable products.</span>
+                        </li>
+                        <li>
+                            <span class="about__highlight-title">Data-driven decisions</span>
+                            <span class="about__highlight-meta">Action-oriented dashboards and reports shaped by PHP, JavaScript, and analytics.</span>
+                        </li>
+                        <li>
+                            <span class="about__highlight-title">Delivery you can trust</span>
+                            <span class="about__highlight-meta">Iterative releases, stakeholder alignment, and documentation that keeps teams moving.</span>
+                        </li>
+                    </ul>
+                    <div class="about__tags">
+                        <span>Agile & Scrum Delivery</span>
+                        <span>API Integration</span>
+                        <span>Database Design</span>
+                        <span>UI Engineering</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--alt" id="services-section" data-section>
+            <div class="container">
+                <div class="section__heading reveal-on-scroll">
+                    <span class="section__eyebrow">Expertise</span>
+                    <h2 class="section__title">Product-minded engineering across the development lifecycle</h2>
+                </div>
+                <div class="service-grid">
+                    <article class="service-card reveal-on-scroll">
+                        <div class="service-card__icon">⚡</div>
+                        <h3>Discovery & Planning</h3>
+                        <p>Turn business goals into actionable sprints with stakeholder workshops, backlog refinement, and measurable acceptance criteria.</p>
+                        <ul>
+                            <li>Agile sprint scoping & roadmaps</li>
+                            <li>Feasibility studies & estimations</li>
+                            <li>Experience prototypes & user journeys</li>
+                        </ul>
+                    </article>
+                    <article class="service-card reveal-on-scroll">
+                        <div class="service-card__icon">🛠️</div>
+                        <h3>Full-Stack Product Development</h3>
+                        <p>Ship responsive, performant applications across mobile and web using Flutter, Laravel, .NET, and modern frontend stacks.</p>
+                        <ul>
+                            <li>Flutter, Laravel, .NET, JavaScript</li>
+                            <li>REST APIs & third-party integrations</li>
+                            <li>Automated testing & Git workflows</li>
+                        </ul>
+                    </article>
+                    <article class="service-card reveal-on-scroll">
+                        <div class="service-card__icon">🌐</div>
+                        <h3>Data & Insight Solutions</h3>
+                        <p>Create dashboards and reporting engines that surface the right KPIs for faster, smarter decision-making.</p>
+                        <ul>
+                            <li>Dynamic dashboards & visualisations</li>
+                            <li>SQL optimisation & data modelling</li>
+                            <li>Interactive reporting & exports</li>
+                        </ul>
+                    </article>
+                    <article class="service-card reveal-on-scroll">
+                        <div class="service-card__icon">🤝</div>
+                        <h3>Team Enablement</h3>
+                        <p>Embed best practices and process guardrails so teams stay aligned, efficient, and focused on outcomes.</p>
+                        <ul>
+                            <li>Code reviews & knowledge transfer</li>
+                            <li>Process refinement & Agile rituals</li>
+                            <li>Project documentation & training</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="experience-section" data-section>
+            <div class="container">
+                <div class="section__heading reveal-on-scroll">
+                    <span class="section__eyebrow">Trajectory</span>
+                    <h2 class="section__title">Growing disciplined engineering practice through real-world delivery</h2>
+                    <p class="section__copy">Hands-on industry work backed by formal training ensures every product ships with the right blend of practicality and polish.</p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline__item reveal-on-scroll">
+                        <span class="timeline__year">Jan 2024 — Present</span>
+                        <h3>Junior System Engineer & Junior Project Manager · eLogic Lanka Pvt Ltd</h3>
+                        <p>Drive end-to-end delivery for client initiatives, steer cross-functional teams, and translate business requirements into actionable technical plans across web and platform builds.</p>
+                    </div>
+                    <div class="timeline__item reveal-on-scroll">
+                        <span class="timeline__year">Aug 2023 — Jan 2024</span>
+                        <h3>Junior Developer · eLogic Lanka Pvt Ltd</h3>
+                        <p>Delivered interactive PHP/JavaScript dashboards, optimised databases via phpMyAdmin, and collaborated cross-functionally to release client projects on schedule.</p>
+                    </div>
+                    <div class="timeline__item reveal-on-scroll">
+                        <span class="timeline__year">Sep 2023 — Jun 2026</span>
+                        <h3>BSc (Hons) Computer Science · Staffordshire University</h3>
+                        <p>Building a solid foundation in software engineering, algorithms, and project management while delivering portfolio-grade products.</p>
+                    </div>
+                    <div class="timeline__item reveal-on-scroll">
+                        <span class="timeline__year">2019 — 2022</span>
+                        <h3>Foundation & AS Level Studies · APIIT / Cambridge</h3>
+                        <p>Completed the General Foundation Program at APIIT and Cambridge AS Levels, cementing analytical thinking and technical fundamentals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--alt" id="skills-section" data-section>
+            <div class="container">
+                <div class="section__heading reveal-on-scroll">
+                    <span class="section__eyebrow">Toolset</span>
+                    <h2 class="section__title">Strategic stack for shipping resilient products</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skills-card reveal-on-scroll">
+                        <h3>Programming Languages</h3>
+                        <p>Battle-tested in both statically and dynamically typed stacks for mobile, web, and backend.</p>
+                        <div class="chip-group">
+                            <span class="chip">PHP</span>
+                            <span class="chip">JavaScript</span>
+                            <span class="chip">C#</span>
+                            <span class="chip">SQL</span>
+                            <span class="chip">HTML/CSS</span>
+                            <span class="chip">Flutter (Dart)</span>
+                        </div>
+                    </div>
+                    <div class="skills-card reveal-on-scroll">
+                        <h3>Frameworks & Platforms</h3>
+                        <p>Modern frameworks and runtimes that accelerate delivery without sacrificing quality.</p>
+                        <div class="chip-group">
+                            <span class="chip">Laravel</span>
+                            <span class="chip">.NET Framework</span>
+                            <span class="chip">Android Studio</span>
+                            <span class="chip">SQLite</span>
+                            <span class="chip">SQL Server</span>
+                        </div>
+                    </div>
+                    <div class="skills-card reveal-on-scroll">
+                        <h3>Tools & Ops</h3>
+                        <p>Day-to-day toolkit for collaboration, version control, and release confidence.</p>
+                        <div class="chip-group">
+                            <span class="chip">Git & GitHub</span>
+                            <span class="chip">Visual Studio</span>
+                            <span class="chip">phpMyAdmin</span>
+                            <span class="chip">Azure Fundamentals</span>
+                            <span class="chip">CLI Tooling</span>
+                        </div>
+                    </div>
+                    <div class="skills-card reveal-on-scroll">
+                        <h3>Methods & Collaboration</h3>
+                        <p>Working patterns that keep projects aligned, transparent, and fast-moving.</p>
+                        <div class="chip-group">
+                            <span class="chip">Agile & Scrum</span>
+                            <span class="chip">API Integration</span>
+                            <span class="chip">Database Design</span>
+                            <span class="chip">UI/UX Collaboration</span>
+                            <span class="chip">Stakeholder Communication</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact-section" data-section>
+            <div class="container contact">
+                <div class="section__heading reveal-on-scroll">
+                    <span class="section__eyebrow">Let’s build</span>
+                    <h2 class="section__title">Ready to engineer your next big move?</h2>
+                    <p class="section__copy">Tell me about your product, timeline, and goals. I’ll respond with a delivery plan that maps milestones, technology, and measurable outcomes.</p>
+                </div>
+                <div class="contact__grid">
+                    <div class="contact-card reveal-on-scroll">
+                        <span class="contact-card__label">Email</span>
+                        <a href="mailto:venux.098@gmail.com">venux.098@gmail.com</a>
+                        <span class="contact-card__label">Phone</span>
+                        <a href="tel:+94774326070">+94 77 432 6070</a>
+                        <span class="contact-card__label">Location</span>
+                        <span>No. 400, Old Negombo Road, Ja-ela 11350, Sri Lanka · Open to global collaborations</span>
+                        <div class="contact-card__socials">
+                            <a href="https://linkedin.com/in/venuk-jayawardena-016973301" target="_blank" rel="noreferrer">LinkedIn</a>
+                            <a href="https://github.com/ThunderZeus1" target="_blank" rel="noreferrer">GitHub</a>
+                        </div>
+                        <div>
+                            <span class="contact-card__label">Languages</span>
+                            <span>English · Sinhala</span>
+                        </div>
+                        <div>
+                            <span class="contact-card__label">References</span>
+                            <span>Mr. Vipula Anandapiya · APIIT · <a href="tel:+94777079697">+94 77 707 9697</a></span><br>
+                            <span>Mr. Dinesh Thennakoon · eLogic Lanka · <a href="tel:+94774033333">+94 77 403 3333</a></span>
+                        </div>
+                    </div>
+                    <form class="contact-form reveal-on-scroll" id="contactForm" action="https://formsubmit.co/ajax/23e44d429414620c7e692419b7479c34" method="POST">
+                        <input type="hidden" name="_subject" value="Portfolio Contact · Anthony Venuk Jayawardena">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="text" name="_honey" style="display:none">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input name="name" id="name" type="text" class="form-control" placeholder="How should I address you?" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input name="email" id="email" type="email" class="form-control" placeholder="Where can I reach you?" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="company">Company / Startup</label>
+                                <input name="company" id="company" type="text" class="form-control" placeholder="Tell me who you’re building for">
+                            </div>
+                            <div class="form-group">
+                                <label for="timeline">Timeline</label>
+                                <input name="timeline" id="timeline" type="text" class="form-control" placeholder="e.g. Kickoff in 4 weeks">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project vision</label>
+                            <textarea name="message" id="message" rows="6" class="form-control" placeholder="What challenge are we solving together?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary">Send Proposal Request</button>
+                        <div class="form-message" id="formMessage" role="status" aria-live="polite"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer__inner">
+            <div class="footer__brand">
+                <a href="#home-section" class="nav-logo">Venuk<span>_</span></a>
+                <p>Building brave, scalable software experiences — one partnership at a time.</p>
+            </div>
+            <div class="footer__links">
+                <a href="#portfolio-section">Work</a>
+                <a href="#services-section">Services</a>
+                <a href="#experience-section">Experience</a>
+                <a href="#skills-section">Skills</a>
+                <a href="#contact-section">Contact</a>
+            </div>
+            <div class="footer__meta">
+                <span>&copy; 2025 Anthony Venuk Jayawardena. All rights reserved.</span>
+                <span>Let’s launch something unforgettable.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const mobileOverlay = document.getElementById('mobileOverlay');
+        const mobileClose = document.getElementById('mobileClose');
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+        const openMobileMenu = () => {
+            mobileMenu.classList.add('active');
+            mobileOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        };
+
+        const closeMobileMenu = () => {
+            mobileMenu.classList.remove('active');
+            mobileOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+        };
+
+        mobileMenuToggle.addEventListener('click', openMobileMenu);
+        mobileClose.addEventListener('click', closeMobileMenu);
+        mobileOverlay.addEventListener('click', closeMobileMenu);
+        mobileNavLinks.forEach(link => link.addEventListener('click', closeMobileMenu));
+
+        // Smooth scrolling
+        const smoothLinks = document.querySelectorAll('a[href^="#"]');
+        smoothLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                const target = document.querySelector(link.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Navbar scroll effect & active link
+        const navbar = document.getElementById('navbar');
+        const sections = document.querySelectorAll('[data-section]');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        const setActiveLink = () => {
+            const scrollPos = window.pageYOffset || document.documentElement.scrollTop;
+            sections.forEach(section => {
+                const offsetTop = section.offsetTop - 140;
+                const offsetBottom = offsetTop + section.offsetHeight;
+                const id = section.getAttribute('id');
+                if (scrollPos >= offsetTop && scrollPos < offsetBottom) {
+                    navLinks.forEach(link => link.classList.remove('active'));
+                    const activeLink = document.querySelector('.nav-link[href="#' + id + '"]');
+                    if (activeLink) activeLink.classList.add('active');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 80) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+            setActiveLink();
+        });
+        setActiveLink();
+
+        // Reveal on scroll
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.2 });
+
+        document.querySelectorAll('.reveal-on-scroll').forEach(el => revealObserver.observe(el));
+
+        // Counters
+        const counters = document.querySelectorAll('[data-counter]');
+        const counterObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const el = entry.target;
+                    const target = parseInt(el.dataset.target, 10);
+                    let current = 0;
+                    const increment = Math.max(1, Math.floor(target / 120));
+                    const updateCounter = () => {
+                        current += increment;
+                        if (current >= target) {
+                            el.innerText = target;
+                        } else {
+                            el.innerText = current;
+                            requestAnimationFrame(updateCounter);
+                        }
+                    };
+                    updateCounter();
+                    observer.unobserve(el);
+                }
+            });
+        }, { threshold: 0.6 });
+
+        counters.forEach(counter => counterObserver.observe(counter));
+
+        // Tilt effect
+        const tiltItems = document.querySelectorAll('.tilt');
+        tiltItems.forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                const rotateX = ((y - centerY) / centerY) * -6;
+                const rotateY = ((x - centerX) / centerX) * 6;
+                card.style.transform = 'rotateX(' + rotateX + 'deg) rotateY(' + rotateY + 'deg)';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = '';
+            });
+        });
+
+        // Typed headline
+        const typedText = document.getElementById('typedText');
+        const phrases = [
+            'Smart mobility ecosystems',
+            'Retail intelligence platforms',
+            'SaaS dashboards with soul',
+            'Human-centered cloud products'
+        ];
+        let phraseIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        const type = () => {
+            const currentPhrase = phrases[phraseIndex];
+            if (isDeleting) {
+                charIndex--;
+            } else {
+                charIndex++;
+            }
+            typedText.textContent = currentPhrase.substring(0, charIndex);
+
+            if (!isDeleting && charIndex === currentPhrase.length) {
+                isDeleting = true;
+                setTimeout(type, 2000);
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                phraseIndex = (phraseIndex + 1) % phrases.length;
+                setTimeout(type, 400);
+            } else {
+                setTimeout(type, isDeleting ? 40 : 90);
+            }
+        };
+
+        if (typedText) {
+            type();
+        }
+
+        // Contact form submission via FormSubmit
+        const contactForm = document.getElementById('contactForm');
+        const formMessage = document.getElementById('formMessage');
+
+        if (contactForm) {
+            contactForm.addEventListener('submit', async (event) => {
+                event.preventDefault();
+                formMessage.classList.remove('error');
+                formMessage.textContent = 'Sending...';
+
+                try {
+                    const payload = new FormData(contactForm);
+                    const response = await fetch(contactForm.action, {
+                        method: 'POST',
+                        headers: { 'Accept': 'application/json' },
+                        body: payload
+                    });
+
+                    if (response.ok) {
+                        formMessage.textContent = 'Thanks for reaching out! I’ll respond within 24 hours.';
+                        contactForm.reset();
+                    } else {
+                        throw new Error('Request failed');
+                    }
+                } catch (error) {
+                    formMessage.textContent = 'Something went wrong. Please email me directly at venux.098@gmail.com.';
+                    formMessage.classList.add('error');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
